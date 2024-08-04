@@ -10,7 +10,7 @@ public class CoolInventory implements InventoryHolder {
     private Inventory inventory;
 
     public CoolInventory() {
-        this.inventory = Bukkit.createInventory(this, 27, "상자에 뿌려줄 아이템 목록");
+        this.inventory = Bukkit.createInventory(this, 54, "상자에 뿌려줄 아이템 목록");
     }
 
     public Inventory getInventory() {

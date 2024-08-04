@@ -1,0 +1,9 @@
+name: randomChests
+version: '${version}'
+main: com.ppaka.randomchests.RandomChests
+api-version: '1.18'
+commands:
+  SpreadItemToChests:
+    description: 주변에 있는 상자에 아이템을 랜덤하게 넣습니다.
+  SetItemsToSpread:
+    description: 상자에 넣을 아이템들을 지정하는 인벤토리를 엽니다.
